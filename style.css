@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+.column-25{
+    flex: 25%;
+}
+.column-50{
+    flex: 50%;
+}
+.column-75{
+    flex: 75%;
+}
+.column-25,
+.column-50,
+.column-75{
+    padding: 0 16px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
